@@ -2,7 +2,7 @@ from flask import Flask, jsonify, request
 app = Flask(__name__)
 
 todos = []
-
+# ---- API Endpoints ----
 @app.route('/todos', methods=['GET'])
 def get_todos():
     return jsonify(todos)
