@@ -1,0 +1,7 @@
+# Ignore virtualenv and Python cache
+__pycache__/
+venv/
+
+# Ignore Docker-related files that shouldn't be committed
+*.swp
+.env  # (if you have environment variables)
